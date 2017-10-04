@@ -1,0 +1,155 @@
+section {
+  min-height: 900px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -200;
+  padding-top: 200;
+  clear:both;
+}
+
+#comedy{
+  background-image: url(images/1503579457-beatriz-at-dinner.jpg);
+  margin-top: 200px;
+  background-attachment:inherit;
+  max-height: 600px;
+}
+
+.lable h1{
+  margin-top: 200px;
+}
+
+#action{
+  background-image: url(images/Guardians-Of-The-Galaxy-Vol-2.jpg);
+}
+
+#horror {
+  background-image: url(images/Alien-Covenant.jpg);
+
+}
+
+#scifi{
+  background-image: url(images/Star-Wars-The-Last-Jedi.jpg);
+
+}
+#scifi h1{
+  margin-left: 38px;
+}
+
+body {
+margin: 0;
+}
+
+
+ul{
+  padding: 0;
+}
+
+
+section h1{
+  margin-top: 0;
+  color: white;
+}
+
+nav {
+  background: #8a8b91;
+  text-align: center;
+  position:fixed;
+  width: 100%;
+  color: #e1e6f7;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  z-index: 1;
+  margin-top: 0;
+  top: 0;
+  left: 0;
+  height: 200px;
+}
+
+
+nav li {
+  display: inline-block;
+padding-top: 2px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+
+nav a {
+  text-decoration:none;
+  text-transform: uppercase;
+  /*font-family: sans-serif;*/
+  color: #e1e6f7;
+  font-family: 'Indie Flower', cursive;
+  transition: all 2s;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav h1{
+  margin-top: 20px;
+}
+
+h1{
+  margin-bottom: -15px;
+  font-size:70px;
+}
+
+.current {
+  font-weight: 1000;
+  font-size: 30px;
+}
+
+.current a{
+  color: red;
+  font-size: 14px;
+}
+
+#menu{
+  display: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+/* grid */
+
+ #example1 div{
+  border: 1px solid black;
+  min-height: 200px;
+}
+
+.thumbnail{
+  display: none;
+  max-width: 100%;
+}
+
+/*gallery*/
+.gallery1{
+  display:none;
+}
+
+/*Responsive Nav */
+
+@media(max-width: 768px){
+  /*Mobile changes go here */
+
+  .nav li{
+    display: block;
+
+  }
+  nav ul{
+    display: none;
+  }
+
+  #menu{
+    display: block;
+  }
+
+}
